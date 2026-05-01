@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PreTesti — Il festival perfetto non esiste</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Kalam:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ══ TOP BAR ══════════════════════════════════════════════════════════ -->
+  <div class="top">
+    <div class="mk">
+      Pre<span style="font-style:italic">Testi</span>
+      <span class="tag">/ Edizione 2026</span>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#format">Format</a>
+      <a href="#programma">Programma</a>
+      <a href="#ospiti">Ospiti e Libri</a>
+      <a href="#location">Location</a>
+      <a href="#prenota" style="color:var(--ink)">Prenota</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ══ HERO ═════════════════════════════════════════════════════════════ -->
+    <section class="hero wrap" style="position:relative">
+
+      <h1 class="claim serif" style="position:relative">
+        Il festival perfetto <span class="strike">non esiste</span>.
+
+        <!-- Marginalia: "scritto a mano, promessa mantenuta" + freccia -->
+        <span class="dd-wrap"
+          style="display:inline-block;line-height:0;--dur:900ms;position:absolute;top:-8px;right:2%;width:200px">
+          <span class="marg dd-fade" style="position:static;display:block">
+            <span class="txt">scritto a mano,<br>promessa mantenuta</span>
+            <svg viewBox="0 0 180 80" fill="none"
+              style="width:140px;height:60px;overflow:visible;color:var(--doodle);margin-top:4px;transform:rotate(16deg)">
+              <path class="doodle-path" style="--len:300" d="M6 12 C 40 6, 80 8, 110 28 C 135 44, 150 62, 158 72"
+                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+              <path class="doodle-path" style="--len:60;transition-delay:.5s" d="M158 72 L 145 58 M158 72 L 170 56"
+                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+            </svg>
+          </span>
+        </span>
+
+        <!-- Asterisco a sinistra del titolo -->
+        <span class="dd-wrap"
+          style="display:inline-block;line-height:0;--dur:900ms;position:absolute;left:-54px;top:10%">
+          <svg viewBox="0 0 40 40" fill="none"
+            style="width:42px;height:42px;overflow:visible;color:var(--doodle);transform:rotate(8deg)">
+            <path class="doodle-path" style="--len:36" d="M20 6 L 20 34" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" />
+            <path class="doodle-path" style="--len:36;transition-delay:.08s" d="M6 20 L 34 20" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" />
+            <path class="doodle-path" style="--len:36;transition-delay:.16s" d="M10 10 L 30 30" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" />
+            <path class="doodle-path" style="--len:36;transition-delay:.24s" d="M30 10 L 10 30" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+      </h1>
+
+      <div class="sub" style="position:relative">
+        <p style="margin:0">
+          Tre serate. Tre finte presentazioni di libri <em>mai scritti</em>.
+          <br>Ogni libro è un
+          <span class="corr-wrap"><span class="corr-fix">pretesto</span><span class="corr">alibi</span></span>
+          — per parlare dal vivo, senza schermi, di idee che fanno fatica a stare dentro un post.
+        </p>
+        <p style="margin:0;font-family:var(--serif);font-style:italic;font-size:20px;line-height:1.4;color:var(--ink)">
+          Venite a sentire autori che non hanno scritto nulla.<br>Porteranno comunque qualcosa.
+        </p>
+      </div>
+
+      <div class="metadata" style="position:relative;font-size:22px">
+        <div style="font-size:11px">Quando<b>9 — 11 Maggio · 19:30 — 21:00</b></div>
+        <div style="font-size:11px">Dove<b>Spazio Ottagono, Torino</b></div>
+        <div style="font-size:11px">Posti a sera<b>80 · ingresso libero</b></div>
+
+        <!-- Marginalia: "← questa sera su tutte" -->
+        <span class="dd-wrap"
+          style="display:inline-block;line-height:0;--dur:900ms;position:absolute;left:32%;top:-14px">
+          <span class="marg dd-fade" style="position:static;display:block;font-size:18px;transform:rotate(-4deg)">
+            <span class="txt">← questa sera su tutte</span>
+          </span>
+        </span>
+      </div>
+
+      <div class="hero-doodle-row">
+        <!-- Onda decorativa -->
+        <span class="dd-wrap" style="display:inline-block;line-height:0;--dur:900ms">
+          <svg viewBox="0 0 260 24" fill="none" style="width:200px;height:22px;overflow:visible;color:var(--doodle)"
+            preserveAspectRatio="none">
+            <path class="doodle-path" style="--len:320"
+              d="M2 14 C 14 4, 28 4, 40 14 C 52 24, 66 24, 78 14 C 90 4, 104 4, 116 14 C 128 24, 142 24, 154 14 C 166 4, 180 4, 192 14 C 204 24, 218 24, 230 14 C 242 4, 252 8, 258 12"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+          </svg>
+        </span>
+        <span style="font-size:12px">Scorri — il resto è ancora in bozza</span>
+      </div>
+
+    </section><!-- /hero -->
+
+
+    <!-- ══ ABOUT ════════════════════════════════════════════════════════ -->
+    <section class="section wrap" id="about" style="position:relative">
+      <div class="ed-label">About</div>
+      <br>
+      <h2 class="section-title" style="position:relative;display:inline-block">
+        Cos'è, <em style="font-style:italic">veramente</em>.
+        <!-- Sottolineatura doodle sul titolo -->
+        <span class="dd-wrap"
+          style="display:inline-block;line-height:0;--dur:900ms;position:absolute;left:0;right:0;bottom:-8px"
+          data-delay="200">
+          <svg viewBox="0 0 200 14" fill="none"
+            style="width:100%;height:14px;overflow:visible;color:var(--doodle);display:block"
+            preserveAspectRatio="none">
+            <path class="doodle-path" style="--len:240" d="M2 9 C 40 2, 80 13, 120 6 C 155 0, 180 11, 198 7"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+      </h2>
+
+      <div class="manif" style="position:relative">
+        <p>
+          PreTesti è un festival culturale indipendente costruito intorno a una
+          <span class="corr-wrap"><span class="corr-fix">bugia onesta</span><span class="corr">finzione
+              dichiarata</span></span>:
+          presentazioni dal vivo di libri di narrativa che non sono mai stati
+          <span class="corr-wrap"><span class="corr-fix">pubblicati</span><span class="corr">scritti</span></span>.
+        </p>
+        <p>
+          Ogni presentazione mette in scena un libro che non esiste, e diventa il punto di partenza per
+          parlare — in carne, ossa e aperitivi — di idee, temi e
+          <span class="dd-wrap" style="display:inline-block;line-height:inherit;--dur:900ms">
+            <span class="circled" style="--rot:-2deg">
+              domande reali
+              <svg class="circled-ring" viewBox="0 0 260 70" preserveAspectRatio="none" aria-hidden="true">
+                <path class="doodle-path" style="--len:720"
+                  d="M254 32 C 260 58, 220 66, 130 66 C 40 66, 6 56, 6 32 C 6 12, 44 4, 130 4 C 212 4, 256 14, 252 32 C 248 50, 210 58, 130 56"
+                  stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+              </svg>
+            </span>
+          </span>.
+        </p>
+        <p>
+          Il progetto nasce per creare
+          <span class="corr-wrap"><span class="corr-fix">momenti di incontro</span><span class="corr">occasioni di
+              consumo culturale</span></span>
+          fuori dalla mediazione costante del digitale — e dalle
+          <span class="corr-wrap"><span class="corr-fix">routine stanche</span><span class="corr">formule già
+              viste</span></span>.
+        </p>
+
+        <!-- Marginalia: "cfr. cap. 2 → il pretesto" -->
+        <span class="dd-wrap"
+          style="display:inline-block;line-height:0;--dur:900ms;position:absolute;right:-10px;top:40%">
+          <span class="marg dd-fade" style="position:static;display:block;font-size:20px;transform:rotate(-6deg)">
+            <span class="txt">cfr. cap. 2 →<br>"il pretesto"</span>
+            <svg viewBox="0 0 160 100" fill="none"
+              style="width:120px;height:70px;overflow:visible;color:var(--doodle);margin-top:4px">
+              <path class="doodle-path" style="--len:280" d="M10 14 C 40 4, 90 10, 120 40 C 140 60, 148 78, 150 88"
+                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+              <path class="doodle-path" style="--len:50;transition-delay:.5s" d="M150 88 L 138 78 M150 88 L 160 74"
+                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+            </svg>
+          </span>
+        </span>
+      </div>
+
+      <div class="manif-meta" style="position:relative">
+        <div>
+          <h4>Il bisogno</h4>
+          <p>Sovraccarico cognitivo ed emotivo. Troppi schermi. Troppe formule prevedibili. La sensazione costante di
+            essere il portatore sano di uno stipendio, e non un ospite.</p>
+        </div>
+        <div>
+          <h4>La risposta</h4>
+          <p>Un contesto in cui incontrarsi dal vivo, ascoltare persone interessanti, tornare a casa con addosso una
+            sensazione persistente di apertura — e magari una nuova amicizia.</p>
+        </div>
+        <div style="position:relative">
+          <h4>La filosofia</h4>
+          <p>Soldi come mezzo, non come fine. Ospiti come complici, non come asset. Pubblico come partecipante, non come
+            spettatore.</p>
+          <!-- Check doodle -->
+          <span class="dd-wrap"
+            style="display:inline-block;line-height:0;--dur:900ms;position:absolute;left:100%;top:-150%"
+            data-delay="150">
+            <svg viewBox="0 0 54 50" fill="none"
+              style="width:44px;height:40px;overflow:visible;color:var(--doodle);transform:rotate(-8deg)">
+              <path class="doodle-path" style="--len:90" d="M6 28 L 22 42 L 50 8" stroke="currentColor"
+                stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+            </svg>
+          </span>
+        </div>
+        <div>
+          <h4>Quello che non siamo</h4>
+          <p>Non siamo un talk motivazionale, non siamo un salotto, non siamo un ciclo di conferenze. Siamo una finta
+            presentazione, che però funziona come una vera.</p>
+        </div>
+      </div>
+
+    </section><!-- /About -->
+
+
+    <!-- ══ FORMAT ═══════════════════════════════════════════════════════════ -->
+    <section class="section wrap" id="format" style="position:relative">
+      <div class="ed-label">Il format</div><br>
+      <h2 class="section-title" style="position:relative;display:inline-block">
+        Come funziona <br><em style="font-style:italic">una presentazione</em>.
+        <!-- Sottolineatura doodle sul titolo -->
+        <span class="dd-wrap"
+          style="display:inline-block;line-height:0;--dur:900ms;position:absolute;left:0;right:0;bottom:-8px"
+          data-delay="200">
+          <svg viewBox="0 0 200 14" fill="none"
+            style="width:100%;height:14px;overflow:visible;color:var(--doodle);display:block"
+            preserveAspectRatio="none">
+            <path class="doodle-path" style="--len:240" d="M2 9 C 40 2, 80 13, 120 6 C 155 0, 180 11, 198 7"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+      </h2>
+
+      <div class="format-grid">
+        <ol class="format-steps">
+          <li>
+            <div class="n">STEP 01</div>
+            <div>
+              <h5>Un libro che non esiste</h5>
+              <p>Costruiamo insieme all'ospite una scheda-libro: titolo, sinossi, bio dell'autore fittizio. Cornice
+                narrativa da cui far emergere il Temi reali.</p>
+            </div>
+          </li>
+          <li>
+            <div class="n">STEP 02</div>
+            <div>
+              <h5>Due figure sul palco</h5>
+              <p>Un <em>autore</em> (l'ospite, nei panni di sé stesso-ma-scrittore) e un <em>relatore</em> che
+                introduce, provoca, facilita — come una vera presentazione al Salone.</p>
+            </div>
+          </li>
+          <li>
+            <div class="n">STEP 03</div>
+            <div>
+              <h5>60 minuti di conversazione</h5>
+              <p>45 minuti di dialogo seguiti da 15 minuti di domande dal pubblico. Le domande possono anche arrivare
+                durante — e spesso arrivano.</p>
+            </div>
+          </li>
+          <li>
+            <div class="n">STEP 04</div>
+            <div>
+              <h5>Un aperitivo che non finisce</h5>
+              <p>Dopo ogni presentazione, c'è tempo e spazio per parlare con gli ospiti, con chi era seduto accanto, con
+                chi è venuto da solo.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div style="position:relative">
+          <div class="format-card">
+            <div class="head">
+              <span>Scheda libro · esempio</span>
+              <span>DRAFT v.2</span>
+            </div>
+            <h3>La mappa delle cose <em>tiepide</em></h3>
+            <div class="meta">
+              <span>Isabella Rovere</span><span>·</span><span>Narrativa, 184 pp.</span>
+            </div>
+            <p class="synopsis">
+              Un gruppo di trentenni si riunisce ogni giovedì in un bar di quartiere per compilare — a turno — la mappa
+              delle cose che non riescono più a
+              <span class="corr-wrap"><span class="corr-fix">desiderare</span><span class="corr">consumare</span></span>
+              del tutto.
+            </p>
+            <div class="foot">
+              <span>ISBN 978-0-0000-00-0</span>
+              <span>Ed. Apocrifa</span>
+            </div>
+          </div>
+
+          <!-- Marginalia: "il libro non esiste!" -->
+          <span class="dd-wrap"
+            style="display:inline-block;line-height:0;--dur:900ms;position:absolute;top:-30px;right:-10px;width:170px"
+            data-delay="150">
+            <span class="marg dd-fade" style="position:static;display:block;transform:rotate(6deg)">
+              <span class="txt">il libro non esiste!</span>
+              <svg viewBox="0 0 160 100" fill="none"
+                style="width:100px;height:60px;overflow:visible;transform:scaleX(-1);color:var(--doodle);margin-top:2px">
+                <path class="doodle-path" style="--len:280" d="M10 14 C 40 4, 90 10, 120 40 C 140 60, 148 78, 150 88"
+                  stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+                <path class="doodle-path" style="--len:50;transition-delay:.5s" d="M150 88 L 138 78 M150 88 L 160 74"
+                  stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+              </svg>
+            </span>
+          </span>
+
+          <!-- Stella in basso a sinistra -->
+          <span class="dd-wrap"
+            style="display:inline-block;line-height:0;--dur:900ms;position:absolute;bottom:-40px;left:-40px"
+            data-delay="400">
+            <svg viewBox="0 0 60 60" fill="none"
+              style="width:50px;height:50px;overflow:visible;color:var(--doodle);transform:rotate(-14deg)">
+              <path class="doodle-path" style="--len:180"
+                d="M30 8 L 34 26 L 52 28 L 38 40 L 44 56 L 30 46 L 16 56 L 22 40 L 8 28 L 26 26 Z" stroke="currentColor"
+                stroke-width="2" stroke-linejoin="round" fill="none" />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+    </section><!-- /format -->
+
+
+    <!-- ══ PROGRAMMA ════════════════════════════════════════════════════════ -->
+    <section class="section wrap" id="programma" style="position:relative">
+      <div class="ed-label">Programma</div><br>
+      <h2 class="section-title" style="position:relative;display:inline-block">
+        Tre serate, tre libri<br>che (forse)<em style="font-style:italic">non leggerete</em>.
+        <!-- Sottolineatura doodle sul titolo -->
+        <span class="dd-wrap"
+          style="display:inline-block;line-height:0;--dur:900ms;position:absolute;left:0;right:0;bottom:-8px"
+          data-delay="200">
+          <svg viewBox="0 0 200 14" fill="none"
+            style="width:100%;height:14px;overflow:visible;color:var(--doodle);display:block"
+            preserveAspectRatio="none">
+            <path class="doodle-path" style="--len:240" d="M2 9 C 40 2, 80 13, 120 6 C 155 0, 180 11, 198 7"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+      </h2>
+      <div class="prog-list">
+
+        <!-- Serata 1: 09 maggio -->
+        <div class="prog-row" style="position:relative">
+          <div class="prog-date">
+            <b>09</b>
+            MAGGIO<br>
+            <span style="opacity:.7">Giovedì · 19:30</span>
+          </div>
+          <div class="prog-title">
+            <div
+              style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px">
+              NARRATIVA / DRAFT</div>
+            <em>La mappa delle cose tiepide</em>
+            <div style="font-size:15px;color:var(--ink-soft);margin-top:6px;font-style:italic;font-family:var(--serif)">
+              Un romanzo breve sulla deriva affettiva contemporanea</div>
+          </div>
+          <div class="prog-author">
+            <b>Isabella Rovere</b>
+            <!-- <span
+              style="font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-soft)">autore
+              fittizio</span><br> -->
+            <span style="font-size:13px">nei panni di <b style="color:var(--ink)">Giulia Mannocchi,
+                giornalista</b></span><br>
+            <span style="font-size:12.5px;opacity:.85">Modera: Davide Ferri</span>
+          </div>
+          <div class="prog-cta"><a href="#prenota">Prenota →</a></div>
+
+          <!-- Marginalia: "opening night" -->
+          <span class="dd-wrap"
+            style="display:inline-block;line-height:0;--dur:900ms;position:absolute;right:8%;top:-12px"
+            data-delay="100">
+            <span class="marg dd-fade" style="position:static;display:block;font-size:18px;transform:rotate(-3deg)">
+              <span class="txt">opening night</span>
+              <svg viewBox="0 0 200 14" fill="none"
+                style="width:120px;height:10px;overflow:visible;color:var(--doodle);display:block;margin-top:2px"
+                preserveAspectRatio="none">
+                <path class="doodle-path" style="--len:240" d="M2 9 C 40 2, 80 13, 120 6 C 155 0, 180 11, 198 7"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </span>
+          </span>
+        </div>
+
+        <!-- Serata 2: 10 maggio -->
+        <div class="prog-row" style="position:relative">
+          <div class="prog-date">
+            <b>10</b>
+            MAGGIO<br>
+            <span style="opacity:.7">Venerdì · 19:30</span>
+          </div>
+          <div class="prog-title">
+            <div
+              style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px">
+              FANTASCIENZA</div>
+            <em>Notturno con orbite</em>
+            <div style="font-size:15px;color:var(--ink-soft);margin-top:6px;font-style:italic;font-family:var(--serif)">
+              Fantascienza intima, due voci, tre sistemi solari</div>
+          </div>
+          <div class="prog-author">
+            <b>Teo Marziano</b>
+            <!-- <span
+              style="font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-soft)">autore
+              fittizio</span><br> -->
+            <span style="font-size:13px">nei panni di <b style="color:var(--ink)">Prof. Chiara Ferretti,
+                astrofisica</b></span><br>
+            <span style="font-size:12.5px;opacity:.85">Modera: Davide Ferri</span>
+          </div>
+          <div class="prog-cta"><a href="#prenota">Prenota →</a></div>
+        </div>
+
+        <!-- Serata 3: 11 maggio -->
+        <div class="prog-row" style="position:relative">
+          <div class="prog-date">
+            <b>11</b>
+            MAGGIO<br>
+            <span style="opacity:.7">Sabato · 19:30</span>
+          </div>
+          <div class="prog-title">
+            <div
+              style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px">
+              RACCONTI</div>
+            <em>Il catalogo dei mestieri inutili</em>
+            <div style="font-size:15px;color:var(--ink-soft);margin-top:6px;font-style:italic;font-family:var(--serif)">
+              Racconti, un inventario, una piccola rivolta</div>
+          </div>
+          <div class="prog-author">
+            <b>Agnese Di Noi</b>
+            <!-- <span
+              style="font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-soft)">autore
+              fittizio</span><br> -->
+            <span style="font-size:13px">nei panni di <b style="color:var(--ink)">Marco Lenzi, economista del
+                lavoro</b></span><br>
+            <span style="font-size:12.5px;opacity:.85">Modera: Davide Ferri</span>
+          </div>
+          <div class="prog-cta"><a href="#prenota">Prenota →</a></div>
+        </div>
+
+      </div>
+
+      <p
+        style="margin-top:36px;max-width:620px;color:var(--ink-soft);font-size:14px;line-height:1.55;font-family:var(--serif);font-style:italic">
+        Ingresso gratuito fino a esaurimento posti — 80 a serata. Si consiglia di prenotare.
+        Apertura porte 19:00, inizio 19:30.
+      </p>
+
+    </section><!-- /programma -->
+
+
+    <!-- ══ OSPITI ════════════════════════════════════════════════════════════ -->
+    <section class="section wrap" id="ospiti" style="position:relative">
+      <div class="ed-label">Ospiti e libri</div><br>
+      <h2 class="section-title" style="position:relative;display:inline-block">
+        Autori fittizi <br><em style="font-style:italic">persone vere</em>.
+        <!-- Sottolineatura doodle sul titolo -->
+        <span class="dd-wrap"
+          style="display:inline-block;line-height:0;--dur:900ms;position:absolute;left:0;right:0;bottom:-8px"
+          data-delay="200">
+          <svg viewBox="0 0 200 14" fill="none"
+            style="width:100%;height:14px;overflow:visible;color:var(--doodle);display:block"
+            preserveAspectRatio="none">
+            <path class="doodle-path" style="--len:240" d="M2 9 C 40 2, 80 13, 120 6 C 155 0, 180 11, 198 7"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+      </h2>
+
+      <div class="cards">
+
+        <!-- Card 1: Isabella Rovere -->
+        <div class="card" style="position:relative">
+          <div class="stamp">DRAFT · NON IN VENDITA</div>
+          <div class="photo" data-label="ritratto autore + book cover"></div>
+          <div class="catalog">
+            <span>CLC 143.7 ROV</span>
+            <span>Ed. Apocrifa</span>
+          </div>
+          <h3><em>La mappa delle cose tiepide</em></h3>
+          <div class="author">di <b>Isabella Rovere</b></div>
+          <p class="syn">Un gruppo di trentenni si riunisce ogni giovedì in un bar di quartiere per compilare — a turno
+            — la mappa delle cose che non riescono più a desiderare del tutto. Sottotesto: l'ironia come ultima forma di
+            attenzione.</p>
+          <div class="bio">
+            <b>Bio dell'autore — </b>Isabella Rovere, nata nel 1989, ha lavorato come editor per una rivista che non
+            esiste. Vive tra Torino e un treno che non prende mai.
+            <div style="margin-top:10px;font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--doodle);border-top: .5px solid var(--rule);
+  padding-top: 12px;">
+              Temi reali: giornalismo, sovraccarico informativo, attenzione.
+            </div>
+          </div>
+          <!-- Asterisco su card 1 -->
+          <span class="dd-wrap"
+            style="display:inline-block;line-height:0;--dur:900ms;position:absolute;top:-18px;left:-18px"
+            data-delay="150">
+            <svg viewBox="0 0 40 40" fill="none"
+              style="width:36px;height:36px;overflow:visible;color:var(--doodle);transform:rotate(-14deg)">
+              <path class="doodle-path" style="--len:36" d="M20 6 L 20 34" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" />
+              <path class="doodle-path" style="--len:36;transition-delay:.08s" d="M6 20 L 34 20" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" />
+              <path class="doodle-path" style="--len:36;transition-delay:.16s" d="M10 10 L 30 30" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" />
+              <path class="doodle-path" style="--len:36;transition-delay:.24s" d="M30 10 L 10 30" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </span>
+        </div>
+
+        <!-- Card 2: Teo Marziano -->
+        <div class="card" style="position:relative">
+          <div class="stamp">DRAFT · NON IN VENDITA</div>
+          <div class="photo" data-label="ritratto autore + book cover"></div>
+          <div class="catalog">
+            <span>CLC 823.914 MAR</span>
+            <span>Ed. Apocrifa</span>
+          </div>
+          <h3><em>Notturno con orbite</em></h3>
+          <div class="author">di <b>Teo Marziano</b></div>
+          <p class="syn">Due astronauti, in missione a dodici anni luce da casa, si scrivono lettere che arriveranno
+            solo ai loro nipoti. Nel frattempo scoprono che la solitudine obbedisce a una legge fisica precisa, ma molto
+            imbarazzante.</p>
+          <div class="bio">
+            <b>Bio dell'autore — </b>Teo Marziano, classe 1974, è convinto di essere l'unico scrittore italiano ad aver
+            pianto guardando un'eclissi in diretta streaming. Lavora in una stanza con tre finestre.
+            <div style="margin-top:10px;font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--doodle);border-top: .5px solid var(--rule);
+  padding-top: 12px;">
+              Temi reali: astrofisica, esopianeti, scale temporali.
+            </div>
+          </div>
+          <!-- Asterisco su card 2 -->
+          <span class="dd-wrap"
+            style="display:inline-block;line-height:0;--dur:900ms;position:absolute;top:-18px;left:-18px"
+            data-delay="270">
+            <svg viewBox="0 0 40 40" fill="none"
+              style="width:36px;height:36px;overflow:visible;color:var(--doodle);transform:rotate(0deg)">
+              <path class="doodle-path" style="--len:36" d="M20 6 L 20 34" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" />
+              <path class="doodle-path" style="--len:36;transition-delay:.08s" d="M6 20 L 34 20" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" />
+              <path class="doodle-path" style="--len:36;transition-delay:.16s" d="M10 10 L 30 30" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" />
+              <path class="doodle-path" style="--len:36;transition-delay:.24s" d="M30 10 L 10 30" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </span>
+        </div>
+
+        <!-- Card 3: Agnese Di Noi -->
+        <div class="card" style="position:relative">
+          <div class="stamp">DRAFT · NON IN VENDITA</div>
+          <div class="photo" data-label="ritratto autore + book cover"></div>
+          <div class="catalog">
+            <span>CLC 853.92 DIN</span>
+            <span>Ed. Apocrifa</span>
+          </div>
+          <h3><em>Il catalogo dei mestieri inutili</em></h3>
+          <div class="author">di <b>Agnese Di Noi</b></div>
+          <p class="syn">Dodici racconti, un inventario di mestieri che la città ha smesso di riconoscere. La
+            protagonista tenta di classificarli prima che scompaiano — e finisce per classificare anche se stessa.</p>
+          <div class="bio">
+            <b>Bio dell'autore — </b>Agnese Di Noi, nata nel 1982, ha lavorato come archivista per sei istituzioni,
+            tutte chiuse nel frattempo. Scrive solo a matita, su carta usata.
+            <div style="margin-top:10px;font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--doodle);border-top: .5px solid var(--rule);
+  padding-top: 12px;">
+              Temi reali: lavoro, automazione, dignità economica.
+            </div>
+          </div>
+          <!-- Asterisco su card 3 -->
+          <span class="dd-wrap"
+            style="display:inline-block;line-height:0;--dur:900ms;position:absolute;top:-18px;left:-18px"
+            data-delay="390">
+            <svg viewBox="0 0 40 40" fill="none"
+              style="width:36px;height:36px;overflow:visible;color:var(--doodle);transform:rotate(14deg)">
+              <path class="doodle-path" style="--len:36" d="M20 6 L 20 34" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" />
+              <path class="doodle-path" style="--len:36;transition-delay:.08s" d="M6 20 L 34 20" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" />
+              <path class="doodle-path" style="--len:36;transition-delay:.16s" d="M10 10 L 30 30" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" />
+              <path class="doodle-path" style="--len:36;transition-delay:.24s" d="M30 10 L 10 30" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </span>
+        </div>
+
+      </div>
+    </section><!-- /ospiti -->
+
+
+    <!-- ══ LOCATION ══════════════════════════════════════════════════════════ -->
+    <section class="section wrap loc" id="location" style="position:relative">
+      <div class="ed-label">Location</div>
+
+      <div class="loc-grid" style="margin-top:40px;position:relative">
+
+        <div class="loc-photo" style="position:relative">
+          <!-- Cerchio doodle sulla foto -->
+          <span class="dd-wrap"
+            style="display:inline-block;line-height:0;--dur:900ms;position:absolute;inset:8% 8% auto auto;width:34%;height:34%">
+            <svg viewBox="0 0 120 120" style="width:100%;height:100%;overflow:visible;mix-blend-mode:multiply">
+              <path class="doodle-path" style="--len:400"
+                d="M108 60 C 112 92, 82 110, 56 108 C 22 106, 6 86, 10 56 C 14 24, 42 8, 72 12 C 102 16, 114 38, 108 60 C 104 78, 82 88, 58 84"
+                stroke="var(--doodle)" stroke-width="2.6" fill="none" stroke-linecap="round" />
+            </svg>
+          </span>
+
+          <!-- Marginalia: "qui ↓" -->
+          <span class="dd-wrap"
+            style="display:inline-block;line-height:0;--dur:900ms;position:absolute;left:-28px;bottom:-18px"
+            data-delay="200">
+            <span class="marg dd-fade" style="position:static;display:block;font-size:20px;transform:rotate(-6deg)">
+              <span class="txt">qui ↓</span>
+              <svg viewBox="0 0 180 80" fill="none"
+                style="width:70px;height:50px;overflow:visible;color:var(--doodle);transform:rotate(80deg)">
+                <path class="doodle-path" style="--len:300" d="M6 12 C 40 6, 80 8, 110 28 C 135 44, 150 62, 158 72"
+                  stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+                <path class="doodle-path" style="--len:60;transition-delay:.5s" d="M158 72 L 145 58 M158 72 L 170 56"
+                  stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+              </svg>
+            </span>
+          </span>
+        </div>
+
+        <div>
+          <h3 class="serif">Spazio Ottagono</h3>
+          <div class="addr">Via delle Lame, 14 — Torino</div>
+          <p class="ln">
+            Ex tipografia di quartiere, riconvertita a luogo ibrido: libreria,
+            caffetteria, sala da 80 posti. Ottagonale davvero, volte a vela,
+            acustica da <span class="corr-wrap"><span class="corr-fix">chiesa sconsacrata</span><span
+                class="corr">teatro</span></span>.
+            Ci è sembrata la cornice giusta per un festival che sta fra le cose.
+          </p>
+          <div class="specs">
+            <div>Capienza<b>80 posti</b></div>
+            <div>Accessibilità<b>Sì, ingresso a livello</b></div>
+            <div>Servizi<b>Caffetteria + libreria</b></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /location -->
+
+
+    <!-- ══ PRENOTA ═══════════════════════════════════════════════════════════ -->
+    <section class="section wrap" id="prenota" style="position:relative">
+      <div class="ed-label">Prenota</div>
+
+      <div class="book">
+        <div style="position:relative">
+          <h2 class="section-title" style="margin:18px 0 30px">Ti aspettiamo,<br>una sedia alla volta.</h2>
+          <div class="pitch serif">
+            80 posti a serata. Ingresso <em>gratuito</em>, prenotazione
+            <span class="corr-wrap"><span class="corr-fix">necessaria</span><span
+                class="corr">obbligatoria</span></span>.<br>
+            Non ti chiederemo nulla di strano — solo il nome, l'email e quale sera preferisci.
+          </div>
+
+          <!-- Marginalia: "lo stiamo dicendo sul serio" -->
+          <span class="dd-wrap" style="display:block;line-height:0;--dur:900ms;margin-top:26px" data-delay="200">
+            <div style="color:var(--doodle);font-family:Caveat,cursive;font-size:24px;line-height:1.3">
+              lo stiamo dicendo sul serio
+              <svg viewBox="0 0 160 100" fill="none"
+                style="width:120px;height:60px;overflow:visible;transform:scaleX(-1);color:var(--doodle);display:block">
+                <path class="doodle-path" style="--len:280" d="M10 14 C 40 4, 90 10, 120 40 C 140 60, 148 78, 150 88"
+                  stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+                <path class="doodle-path" style="--len:50;transition-delay:.5s" d="M150 88 L 138 78 M150 88 L 160 74"
+                  stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+              </svg>
+            </div>
+          </span>
+        </div>
+
+        <form class="form" id="form-prenota" style="position:relative">
+          <h4>
+            <span>Prenota il tuo posto</span>
+          </h4>
+
+          <label>Quale serata?</label>
+          <div class="event-chooser">
+            <label>
+              <span class="d">09 Mag · Gio</span>
+              <span>La mappa delle…</span>
+              <input type="radio" name="ev" value="0">
+            </label>
+            <label>
+              <span class="d">10 Mag · Ven</span>
+              <span>Notturno con orbite…</span>
+              <input type="radio" name="ev" value="1">
+            </label>
+            <label>
+              <span class="d">11 Mag · Sab</span>
+              <span>Il catalogo dei…</span>
+              <input type="radio" name="ev" value="2">
+            </label>
+          </div>
+
+          <label>Nome e cognome</label>
+          <input type="text" placeholder="Es. Mario Rossi" required>
+
+          <label>Email</label>
+          <input type="email" placeholder="tu@email.it" required>
+
+          <label>Quanti posti?</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+
+          <button type="submit">Prenota il posto</button>
+          <div class="fine">
+            Riceverai una mail di conferma entro 24h. Se non puoi venire, ti chiediamo di disdire:
+            c'è sempre qualcuno in lista d'attesa.
+          </div>
+
+          <!-- Bracket doodle a destra del form -->
+          <span class="dd-wrap"
+            style="display:inline-block;line-height:0;--dur:900ms;position:absolute;right:-26px;top:90px"
+            data-delay="300">
+            <svg viewBox="0 0 40 160" fill="none" style="width:28px;height:120px;overflow:visible;color:var(--doodle)"
+              preserveAspectRatio="none">
+              <path class="doodle-path" style="--len:260" d="M10 6 C 26 8, 32 40, 32 80 C 32 120, 26 152, 10 154"
+                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" />
+            </svg>
+          </span>
+        </form>
+      </div>
+
+    </section><!-- /prenota -->
+
+
+    <!-- ══ NEWSLETTER ════════════════════════════════════════════════════════ -->
+    <section class="wrap" style="padding-bottom:10px;position:relative">
+      <div class="nl" style="position:relative">
+        <div>
+          <h3 class="serif">Lettere dagli autori che non hanno scritto nulla.</h3>
+          <p>Una mail ogni tanto. Sinossi inedite di libri mai scritti, anticipazioni sulle prossime serate, pensieri
+            sparsi. Niente spam, niente promo, niente venditori.</p>
+        </div>
+        <form id="form-newsletter">
+          <input type="email" placeholder="tu@email.it" required>
+          <button type="submit">Iscriviti</button>
+        </form>
+
+        <!-- Asterisco in alto a sinistra -->
+        <span class="dd-wrap"
+          style="display:inline-block;line-height:0;--dur:900ms;position:absolute;left:-30px;top: -16px"
+          data-delay="150">
+          <svg viewBox="0 0 40 40" fill="none" style="width:30px;height:30px;overflow:visible;color:var(--doodle)">
+            <path class="doodle-path" style="--len:36" d="M20 6 L 20 34" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" />
+            <path class="doodle-path" style="--len:36;transition-delay:.08s" d="M6 20 L 34 20" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" />
+            <path class="doodle-path" style="--len:36;transition-delay:.16s" d="M10 10 L 30 30" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" />
+            <path class="doodle-path" style="--len:36;transition-delay:.24s" d="M30 10 L 10 30" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+
+        <!-- Squiggle in basso -->
+        <span class="dd-wrap"
+          style="display:inline-block;line-height:0;--dur:900ms;position:absolute;right:0%;bottom:15px">
+          <svg viewBox="0 0 120 40" fill="none" style="width:100px;height:22px;overflow:visible;color:var(--doodle)">
+            <path class="doodle-path" style="--len:240"
+              d="M4 20 C 14 6, 26 6, 36 20 C 46 34, 58 34, 68 20 C 78 6, 90 6, 100 20 C 108 30, 114 32, 118 30"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+          </svg>
+        </span>
+      </div>
+    </section><!-- /newsletter -->
+
+  </main>
+
+
+  <!-- ══ FOOTER ════════════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="wrap">
+      <div class="grid">
+        <div>
+          <div class="mk serif"><em>Pre</em><b>Testi</b></div>
+          <div
+            style="font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--ink-soft)">
+            Il festival perfetto non esiste.
+          </div>
+          <p
+            style="font-family:var(--serif);font-style:italic;font-size:16px;margin-top:22px;max-width:32ch;line-height:1.5">
+            Festival culturale indipendente. Prima edizione 9—11 Maggio 2026, Torino. Sostenuto da bandi, fondazioni e
+            chi ci crede.
+          </p>
+        </div>
+        <div>
+          <h5>Navigazione</h5>
+          <a href="#about">About</a>
+          <a href="#format">Format</a>
+          <a href="#programma">Programma</a>
+          <a href="#ospiti">Ospiti e Libri</a>
+          <a href="#location">Location</a>
+          <a href="#prenota">Prenota</a>
+        </div>
+        <div>
+          <h5>Contatti</h5>
+          <a href="mailto:ciao@pretesti.it">ciao@pretesti.it</a>
+          <a href="mailto:ospiti@pretesti.it">ospiti@pretesti.it</a>
+          <a href="mailto:stampa@pretesti.it">stampa@pretesti.it</a>
+          <a href="mailto:partner@pretesti.it">partner@pretesti.it</a>
+        </div>
+        <div>
+          <h5>Altrove</h5>
+          <a href="#">Instagram</a>
+          <a href="#">Telegram</a>
+          <a href="#">Sostienici</a>
+          <a href="#">Press kit · PDF</a>
+        </div>
+      </div>
+      <div class="fine">
+        <span>© 2026 PreTesti — associazione culturale</span>
+        <span>Torino · Italia</span>
+        <span>Design: draft v.2 — non ancora definitivo</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/doodles.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+
+</html>
